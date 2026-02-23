@@ -4,41 +4,41 @@ const serverList = [
 	{
 		id: "tf2CustomMaps",
 		name: "Vio's Arcade | TF2 Custom Maps",
-		ip: "play.redchanit.xyz:25565",
+		ip: "play.viosarcade.xyz:25565",
 		game: "tf2",
 		motd: "memefort",
 	},
 	{
 		id: "tf2SoapDM",
 		name: "Vio's Arcade | TF2 SoapDM",
-		ip: "play.redchanit.xyz:27335",
+		ip: "play.viosarcade.xyz:27335",
 		game: "tf2",
 		motd: "memefort_soapdm",
 	},
 	{
 		id: "tf2Vscript",
 		name: "Vio's Arcade | TF2 Vscript Maps",
-		ip: "play.redchanit.xyz:51840",
+		ip: "play.viosarcade.xyz:51840",
 		game: "tf2",
 		motd: "memefort_vscript",
 	},
 	{
 		id: "tf2SecretBase",
 		name: "Vio's Arcade | TF2 The Secret Base",
-		ip: "play.redchanit.xyz:27005",
+		ip: "play.viosarcade.xyz:27005",
 		game: "tf2",
 	},
 	{
 		id: "tf2Vanilla",
 		name: "Vio's Arcade | TF2 Vanilla",
-		ip: "play.redchanit.xyz:27664",
+		ip: "play.viosarcade.xyz:27664",
 		game: "tf2",
 		motd: "memefort_vanilla",
 	},
 	{
 		id: "tf2VanillaNoSniper",
 		name: "Vio's Arcade | TF2 Trade Minecraft",
-		ip: "play.redchanit.xyz:27663",
+		ip: "play.viosarcade.xyz:27663",
 		game: "tf2",
 		motd: "memefort_trademc",
 	},
@@ -46,7 +46,7 @@ const serverList = [
 	{
 		id: "openFortressDM",
 		name: "Vio's Arcade | Open Fortress DM",
-		ip: "play.redchanit.xyz:27015",
+		ip: "play.viosarcade.xyz:27015",
 		game: "hl2dm",
 		overrideGame: "of",
 		motd: "dagobah",
@@ -54,7 +54,7 @@ const serverList = [
 	{
 		id: "openFortressTDM",
 		name: "Vio's Arcade | Open Fortress Team DM",
-		ip: "play.redchanit.xyz:34560",
+		ip: "play.viosarcade.xyz:34560",
 		game: "hl2dm",
 		overrideGame: "of",
 		motd: "dagobah",
@@ -62,7 +62,7 @@ const serverList = [
 	{
 		id: "openFortressAllClassDM",
 		name: "Vio's Arcade | OF All-Class DM",
-		ip: "play.redchanit.xyz:27665",
+		ip: "play.viosarcade.xyz:27665",
 		game: "hl2dm",
 		overrideGame: "of",
 		motd: "dagobah",
@@ -70,7 +70,7 @@ const serverList = [
 	{
 		id: "openFortressZombie",
 		name: "Vio's Arcade | OF Zombie Infection + Arsenal",
-		ip: "play.redchanit.xyz:27666",
+		ip: "play.viosarcade.xyz:27666",
 		game: "hl2dm",
 		overrideGame: "of",
 		motd: "dagobah",
@@ -79,7 +79,7 @@ const serverList = [
 	{
 		id: "tf2c1",
 		name: "Vio's Arcade | TF2C #1 - All Maps",
-		ip: "play.redchanit.xyz:27020",
+		ip: "play.viosarcade.xyz:27020",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 		//motd: "tf2c_motd",
@@ -87,14 +87,14 @@ const serverList = [
 	{
 		id: "tf2c2",
 		name: "Vio's Arcade | TF2C #2 - 4Team Maps",
-		ip: "play.redchanit.xyz:27979",
+		ip: "play.viosarcade.xyz:27979",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
 	{
 		id: "tf2c3",
 		name: "Vio's Arcade | TF2C #3 - VIP Escort Maps",
-		ip: "play.redchanit.xyz:27980",
+		ip: "play.viosarcade.xyz:27980",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 		//motd: "xperience",
@@ -102,14 +102,14 @@ const serverList = [
 	{
 		id: "tf2c4",
 		name: "Vio's Arcade | TF2C #4 - Arena Maps",
-		ip: "play.redchanit.xyz:27974",
+		ip: "play.viosarcade.xyz:27974",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
 	{
 		id: "tf2c5",
 		name: "Vio's Arcade | TF2C #5 - Vanilla Gameplay",
-		ip: "play.redchanit.xyz:15565",
+		ip: "play.viosarcade.xyz:15565",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
@@ -117,7 +117,7 @@ const serverList = [
 	{
 		id: "pf2",
 		name: "Vio's Arcade | Pre-Fortress 2",
-		ip: "play.redchanit.xyz:26335",
+		ip: "play.viosarcade.xyz:26335",
 		game: "hl2dm",
 		overrideGame: "pf2",
 	},
@@ -125,7 +125,7 @@ const serverList = [
 	{
 		id: "tf2goldrush",
 		name: "Vio's Arcade | TF2: Gold Rush",
-		ip: "play.redchanit.xyz:27008",
+		ip: "play.viosarcade.xyz:27008",
 		game: "tf2",
 		overrideGame: "tf2goldrush",
 	},	
@@ -133,21 +133,21 @@ const serverList = [
 	{
 		id: "css",
 		name: "Vio's Arcade | Counter-Strike: Source DM",
-		ip: "play.redchanit.xyz:22015",
+		ip: "play.viosarcade.xyz:22015",
 		game: "css",
 	},
 	// fortressforever
 	{
 		id: "fortressforever",
 		name: "Vio's Arcade | Fortress Forever",
-		ip: "play.redchanit.xyz:23535",
+		ip: "play.viosarcade.xyz:23535",
 		game: "fortressforever",
 	},	
 	// goonsquad + hl2dm
 	{
 		id: "hl2dm",
 		name: "Vio's Arcade | Half-Life 2 Deathmatch",
-		ip: "play.redchanit.xyz:23555",
+		ip: "play.viosarcade.xyz:23555",
 		game: "hl2dm",
 		//overrideGame: "goonsquad",
 	},
@@ -155,49 +155,49 @@ const serverList = [
 	{
 		id: "tfcFoldyBasement",
 		name: "Vio's Arcade | TFC - Old Foldy's Basement",
-		ip: "play.redchanit.xyz:34531",
+		ip: "play.viosarcade.xyz:34531",
 		game: "tfc",
 	},
 	// hldm
 	{
 		id: "hldmFoldyPlayhouse",
 		name: "Vio's Arcade | HLDM - Old Foldy's Playhouse",
-		ip: "play.redchanit.xyz:27970",
+		ip: "play.viosarcade.xyz:27970",
 		game: "hldm",
 	},
 	// dmc
 	{
 		id: "dmcFoldyDungeon",
 		name: "Vio's Arcade | DMC - Old Foldy's Dungeon",
-		ip: "play.redchanit.xyz:27971",
+		ip: "play.viosarcade.xyz:27971",
 		game: "dmc",
 	},
 	// ricochet
 	{
 		id: "ricochet",
 		name: "Vio's Arcade | Ricochet",
-		ip: "play.redchanit.xyz:21565",
+		ip: "play.viosarcade.xyz:21565",
 		game: "ricochet",
 	},	
 	// svencoop
 	{
 		id: "svencoop",
 		name: "Vio's Arcade | Sven Co-op",
-		ip: "play.redchanit.xyz:27972",
+		ip: "play.viosarcade.xyz:27972",
 		game: "svencoop",
 	},
 	// quake
 	{
 		id: "quakeVanilla",
 		name: "Vio's Arcade | QuakeWorld (Vanilla)",
-		ip: "play.redchanit.xyz:27961",
+		ip: "play.viosarcade.xyz:27961",
 		game: "quake1",
 		overrideMap: "quakeworld",
 	},
 	{
 		id: "quakeTeamFortress",
 		name: "Vio's Arcade | QuakeWorld Team Fortress (FortressOne)",
-		ip: "play.redchanit.xyz:27962",
+		ip: "play.viosarcade.xyz:27962",
 		game: "quake1",
 		overrideMap: "quaketf",
 	},
@@ -205,96 +205,96 @@ const serverList = [
 	{
 		id: "quake3",
 		name: "Vio's Arcade | Quake 3 Unlagged",
-		ip: "play.redchanit.xyz:27963",
+		ip: "play.viosarcade.xyz:27963",
 		game: "quake3",
 	},
 	// quakelive
 	{
 		id: "quakelive",
 		name: "Vio's Arcade | Quake Live",
-		ip: "play.redchanit.xyz:27964",
+		ip: "play.viosarcade.xyz:27964",
 		game: "quakelive",
 	},
 	// doom3
 	{
 		id: "doom3",
 		name: "Vio's Arcade | Doom 3",
-		ip: "play.redchanit.xyz:10669",
+		ip: "play.viosarcade.xyz:10669",
 		game: "doom3",
 	},
 	// jk2
 	{
 		id: "jk2",
 		name: "Vio's Arcade | JK2",
-		ip: "play.redchanit.xyz:27973",
+		ip: "play.viosarcade.xyz:27973",
 		game: "swjk",
 	},
 	// halo
 	{
 		id: "halo",
 		name: "Vio's Arcade | Halo CE | Classic Slayer Pro",
-		ip: "play.redchanit.xyz:2103",
+		ip: "play.viosarcade.xyz:2103",
 		game: "halo",
 	},
 	// ut
 	{
 		id: "ut",
 		name: "Vio's Arcade | Unreal Tournament",
-		ip: "play.redchanit.xyz:7778",
+		ip: "play.viosarcade.xyz:7778",
 		game: "ut",
 	},	
 	// minecraft
 	{
 		id: "minecraft",
 		name: "Vio's Arcade | Minecraft",
-		ip: "play.redchanit.xyz:35565",
+		ip: "play.viosarcade.xyz:35565",
 		game: "minecraft",
 		overrideMap: "world",
-		dynmap: "http://play.redchanit.xyz:35568/",
+		dynmap: "http://play.viosarcade.xyz:35568/",
 	},
 	// minecraft beta
 	{
 		id: "minecraftbeta",
 		name: "Vio's Arcade | Minecraft Beta",
-		ip: "play.redchanit.xyz:24566",
+		ip: "play.viosarcade.xyz:24566",
 		game: "minecraftbeta",
-		overrideMap: "redchanit",
-		dynmap: "http://play.redchanit.xyz:8123/",
+		overrideMap: "thebetawasbetter",
+		dynmap: "http://play.viosarcade.xyz:8123/",
 	},
 	// minecraft classic
 	{
 		id: "minecraftclassic",
 		name: "Vio's Arcade | Minecraft Classic",
-		ip: "play.redchanit.xyz:45566",
+		ip: "play.viosarcade.xyz:45566",
 		game: "minecraft",
 		overrideMap: "classicube",
-		//dynmap: "http://play.redchanit.xyz:48123/",
+		//dynmap: "http://play.viosarcade.xyz:48123/",
 	},
 	// hytale
 	{
 		id: "hytale",
 		name: "Vio's Arcade | Hytale",
-		ip: "play.redchanit.xyz:5521",
+		ip: "play.viosarcade.xyz:5521",
 		game: "minecraft",
 		overrideMap: "hytale",
 		overrideGame: "hytale",
-		//dynmap: "http://play.redchanit.xyz:POOT_DYNMAP_HERE/",
+		//dynmap: "http://play.viosarcade.xyz:POOT_DYNMAP_HERE/",
 	},	
 	// ace of spades
 	{
 		id: "buildandshoot",
 		name: "Vio's Arcade | Ace of Spades Classic",
-		//ip: "play.redchanit.xyz:32887",
-		ip: "play.redchanit.xyz:32886",
+		//ip: "play.viosarcade.xyz:32887",
+		ip: "play.viosarcade.xyz:32886",
 		game: "buildandshoot",
 		overrideMap: "aceofspades",
-		dynmap: "http://play.redchanit.xyz:32886/",
+		dynmap: "http://play.viosarcade.xyz:32886/",
 	},		
 	// armagetron
 	{
 		id: "armagetron",
 		name: "Vio's Arcade | Armagetron Deathmatch",
-		ip: "play.redchanit.xyz:4534",
+		ip: "play.viosarcade.xyz:4534",
 		game: "armagetron",
 		overrideMap: "The_Grid",
 	}	
@@ -302,7 +302,7 @@ const serverList = [
 	//{
 	//	id: "mumble",
 	//	name: "Vio's Arcade | Murmur Bunker",
-	//	ip: "play.redchanit.xyz:64738",
+	//	ip: "play.viosarcade.xyz:64738",
 	//	game: "mumbleping",
 	//	overrideMap: "mumble",
 	//}	
@@ -313,7 +313,7 @@ const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsqua
 
 // general variables
 const RESOURCES_URL = "https://resources.redchanit.xyz";
-const HOSTNAME = "play.redchanit.xyz";
+const HOSTNAME = "play.viosarcade.xyz";
 const API_BASE_URL = "https://api.raccoonlagoon.com/v1/";
 
 // preload critical images
