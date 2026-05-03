@@ -312,7 +312,7 @@ const serverList = [
 const steamGames = ["tf2", "tf2classic", "of", "pf2", "tfport", "css", "goonsquad", "tfc", "hldm", "hl2dm", "dmc", "ricochet", "svencoop", "fortressforever", "quakelive", "portalcoop", "tf2goldrush"];
 
 // general variables
-const RESOURCES_URL = "https://resources.redchanit.xyz";
+const RESOURCES_URL = "https://resources.viosarcade.xyz";
 const HOSTNAME = "play.viosarcade.xyz";
 const API_BASE_URL = "https://api.raccoonlagoon.com/v1/";
 
