@@ -86,14 +86,14 @@ const serverList = [
 	},
 	{
 		id: "tf2c2",
-		name: "Vio's Arcade | TF2C #2 - 4Team Maps",
+		name: "Vio's Arcade | TF2C #2 - Merc CTF / DOM Mode",
 		ip: "play.viosarcade.xyz:27979",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
 	{
 		id: "tf2c3",
-		name: "Vio's Arcade | TF2C #3 - VIP Escort Maps",
+		name: "Vio's Arcade | TF2C #3 - Zombie Infection Mode",
 		ip: "play.viosarcade.xyz:27980",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
@@ -101,7 +101,7 @@ const serverList = [
 	},
 	{
 		id: "tf2c4",
-		name: "Vio's Arcade | TF2C #4 - Arena Maps",
+		name: "Vio's Arcade | TF2C #4 - Deathmatch Mode",
 		ip: "play.viosarcade.xyz:27974",
 		game: "hl2dm",
 		overrideGame: "tf2classic",
@@ -113,6 +113,13 @@ const serverList = [
 		game: "hl2dm",
 		overrideGame: "tf2classic",
 	},
+	{
+		id: "tf2c6",
+		name: "Vio's Arcade | TF2C #6 - Deathmatch Reclassified Mix",
+		ip: "play.viosarcade.xyz:5520",
+		game: "hl2dm",
+		overrideGame: "tf2classic",
+	},	
 	// pf2
 	{
 		id: "pf2",
@@ -271,15 +278,15 @@ const serverList = [
 		//dynmap: "http://play.viosarcade.xyz:48123/",
 	},
 	// hytale
-	{
-		id: "hytale",
-		name: "Vio's Arcade | Hytale",
-		ip: "play.viosarcade.xyz:5521",
-		game: "minecraft",
-		overrideMap: "hytale",
-		overrideGame: "hytale",
-		//dynmap: "http://play.viosarcade.xyz:POOT_DYNMAP_HERE/",
-	},	
+	//{
+	//	id: "hytale",
+	//	name: "Vio's Arcade | Hytale",
+	//	ip: "play.viosarcade.xyz:5521",
+	//	game: "minecraft",
+	//	overrideMap: "hytale",
+	//	overrideGame: "hytale",
+	//	//dynmap: "http://play.viosarcade.xyz:POOT_DYNMAP_HERE/",
+	//},	
 	// ace of spades
 	{
 		id: "buildandshoot",
