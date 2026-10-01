@@ -275,7 +275,7 @@ const serverList = [
 		ip: "play.viosarcade.xyz:45566",
 		game: "minecraft",
 		overrideMap: "classicube",
-		//dynmap: "http://play.viosarcade.xyz:48123/",
+		dynmap: "http://play.viosarcade.xyz:48123/",
 	},
 	// hytale
 	//{
