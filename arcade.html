@@ -18,12 +18,18 @@
 		<style>
 			#arcadeGames {
 				display: grid;
-				grid-template-columns: repeat(3, minmax(0, 1fr));
+				min-width: 0;
 				gap: 16px;
 				max-width: 1050px;
 				margin: 0 auto;
 				padding: 16px 0;
 			}
+			.arcadeRow {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+				gap: 16px;
+			}
+			#content { min-width: 0; }
 			.arcadeGame {
 				display: flex;
 				flex-direction: column;
@@ -48,8 +54,14 @@
 				outline-offset: 2px;
 			}
 			@media (max-width: 600px) {
-				#arcadeGames { gap: 8px; }
-				.arcadeGame { padding: 6px; }
+				#arcadeGames, .arcadeRow { gap: 8px; }
+				.arcadeRow {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+				gap: 16px;
+			}
+			#content { min-width: 0; }
+			.arcadeGame { padding: 6px; }
 			}
 		</style>
 	</head>
@@ -89,30 +101,38 @@
 					<div id="contentInner">
 						<div id="contentText">
 							<div id="arcadeGames" aria-label="Arcade games">
-								<a class="arcadeGame externalLink" href="https://caconline.viosarcade.xyz/" target="_blank" rel="noopener noreferrer">
-									<img src="images/arcadegames/cac.png" alt="CrystAlien Conflict Online" loading="lazy">
-									<span>CrystAlien Conflict Online</span>
-								</a>
-								<a class="arcadeGame externalLink" href="https://wbonline.viosarcade.xyz/" target="_blank" rel="noopener noreferrer">
-									<img src="images/arcadegames/wb2.png" alt="World Builder Online" loading="lazy">
-									<span>World Builder Online</span>
-								</a>
-								<a class="arcadeGame externalLink" href="https://flyleno.viosarcade.xyz/" target="_blank" rel="noopener noreferrer">
-									<img src="images/arcadegames/leno.png" alt="Fly Leno" loading="lazy">
-									<span>Fly Leno</span>
-								</a>
-								<a class="arcadeGame externalLink" href="https://sonsegajp.github.io/SpinDescend/" target="_blank" rel="noopener noreferrer">
-									<img src="images/arcadegames/spin.png" alt="Spin &amp; Descend" loading="lazy">
-									<span>Spin &amp; Descend</span>
-								</a>
-								<a class="arcadeGame externalLink" href="https://sonsegajp.github.io/NubbysBrickFactory/" target="_blank" rel="noopener noreferrer">
-									<img src="images/arcadegames/pleasenubby.png" alt="Nubby's Brick Factory" loading="lazy">
-									<span>Nubby's Brick Factory</span>
-								</a>
-								<a class="arcadeGame externalLink" href="https://sonsegajp.github.io/meat-channing-tatum/" target="_blank" rel="noopener noreferrer">
-									<img src="images/arcadegames/meat.png" alt="Meat Channing Tatum" loading="lazy">
-									<span>Meat Channing Tatum</span>
-								</a>
+								<div class="arcadeRow">
+									<a class="arcadeGame externalLink" href="https://caconline.viosarcade.xyz/" target="_blank" rel="noopener noreferrer">
+										<img src="images/arcadegames/cac.png" alt="CrystAlien Conflict Online" loading="lazy">
+										<span>CrystAlien Conflict Online</span>
+									</a>
+									<a class="arcadeGame externalLink" href="https://wbonline.viosarcade.xyz/" target="_blank" rel="noopener noreferrer">
+										<img src="images/arcadegames/wb2.png" alt="World Builder Online" loading="lazy">
+										<span>World Builder Online</span>
+									</a>
+									<a class="arcadeGame externalLink" href="https://flyleno.viosarcade.xyz/" target="_blank" rel="noopener noreferrer">
+										<img src="images/arcadegames/leno.png" alt="Fly Leno" loading="lazy">
+										<span>Fly Leno</span>
+									</a>
+								</div>
+								<div class="arcadeRow">
+									<a class="arcadeGame externalLink" href="https://sonsegajp.github.io/SpinDescend/" target="_blank" rel="noopener noreferrer">
+										<img src="images/arcadegames/spin.png" alt="Spin &amp; Descend" loading="lazy">
+										<span>Spin &amp; Descend</span>
+									</a>
+									<a class="arcadeGame externalLink" href="https://sonsegajp.github.io/NubbysBrickFactory/" target="_blank" rel="noopener noreferrer">
+										<img src="images/arcadegames/pleasenubby.png" alt="Nubby's Brick Factory" loading="lazy">
+										<span>Nubby's Brick Factory</span>
+									</a>
+									<a class="arcadeGame externalLink" href="https://sonsegajp.github.io/rogueball/" target="_blank" rel="noopener noreferrer">
+										<img src="images/arcadegames/rogueball.png" alt="RogueBall" loading="lazy">
+										<span>RogueBall</span>
+									</a>
+									<a class="arcadeGame externalLink" href="https://sonsegajp.github.io/meat-channing-tatum/" target="_blank" rel="noopener noreferrer">
+										<img src="images/arcadegames/meat.png" alt="Meat Channing Tatum" loading="lazy">
+										<span>Meat Channing Tatum</span>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
