@@ -257,7 +257,7 @@ const serverList = [
 		ip: "play.viosarcade.xyz:35565",
 		game: "minecraft",
 		overrideMap: "world",
-		dynmap: "http://play.viosarcade.xyz:35568/",
+		dynmap: "https://dynmap.viosarcade.xyz/",
 	},
 	// minecraft beta
 	{
@@ -266,7 +266,7 @@ const serverList = [
 		ip: "play.viosarcade.xyz:24566",
 		game: "minecraftbeta",
 		overrideMap: "thebetawasbetter",
-		dynmap: "http://play.viosarcade.xyz:8123/",
+		dynmap: "https://betamap.viosarcade.xyz/",
 	},
 	// minecraft classic
 	{
@@ -275,7 +275,7 @@ const serverList = [
 		ip: "play.viosarcade.xyz:45566",
 		game: "minecraft",
 		overrideMap: "classicube",
-		dynmap: "http://play.viosarcade.xyz:48123/",
+		dynmap: "https://classicmap.viosarcade.xyz/",
 	},
 	// hytale
 	//{
@@ -295,7 +295,7 @@ const serverList = [
 		ip: "play.viosarcade.xyz:32886",
 		game: "buildandshoot",
 		overrideMap: "aceofspades",
-		dynmap: "http://play.viosarcade.xyz:32886/",
+		dynmap: "https://aos.viosarcade.xyz/",
 	},		
 	// armagetron
 	{
